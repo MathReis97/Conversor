@@ -1,6 +1,5 @@
 public class Moeda {
 
-    private static final double REAIS = 1;
     private static final double DOLAR = 4.82;
     private static final double EURO = 5.37;
     private static final double LIBRA = 6.26;
