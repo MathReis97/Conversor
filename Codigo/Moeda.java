@@ -27,15 +27,15 @@ public class Moeda {
     }
 
     public static double dolarReais(double dolar) {
-        return dolar / DOLAR;
+        return dolar * DOLAR;
     }
 
     public static double euroReais(double euro) {
-        return euro / EURO;
+        return euro * EURO;
     }
 
     public static double libraReais(double libra) {
-        return libra / LIBRA;
+        return libra * LIBRA;
     }
 
     public static double pesoArgentinoReais(double peso_argentino) {

@@ -162,6 +162,7 @@ public class Gerenciador {
         public static void recomecar() {
                 //Object[] desejaContinua = { "Sim", "Nao", "Cancelar" };
                 int caixaDeDialogo = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
+              
 
                 if(caixaDeDialogo == 0)
                         menu();
