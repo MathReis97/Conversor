@@ -73,6 +73,7 @@ public class Gerenciador {
                                 JOptionPane.showMessageDialog(null,
                                                 "Resultado da conversão é R$"
                                                                 + String.format("%.2f", Moeda.euroReais(moeda)));
+                                recomecar();                                
                                 break;
                         case "Libras Esterlinas para Reais":
                                 JOptionPane.showMessageDialog(null,
